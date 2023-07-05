@@ -20,7 +20,8 @@ body {
     background-color: rgb(216, 220, 221);
     border: 2px double rgb(0, 0, 0);
     border-radius: 16px;
-    font-family: uppercase;
+    text-transform: capitalize;
+    font-family: Trebuchet;
     margin-left: auto;
     margin-right: auto;
     max-width: 1024px;
