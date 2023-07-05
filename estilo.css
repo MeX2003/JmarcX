@@ -31,3 +31,10 @@ body {
     padding-left: 24px;
     padding-right: 24px;
 }
+
+html {
+    background: linear-gradient(to bottom, rgb(120, 212, 132),
+    rgb(184, 240, 210) 50%, LightCyan 50%,
+    rgb(186, 238, 190)) ;
+    background-size: 8px 8px;
+  }
