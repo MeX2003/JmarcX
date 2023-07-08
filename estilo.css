@@ -36,17 +36,6 @@ html{
     scroll-behavior: smooth;
 }
 
-html,
-body {
-  width: 100%;
-  height: 100%;
-}
-body {
-  margin: 0;
-  overflow: hidden;
-}
-svg {
-  fill: #000;
-  width: 100%;
-  height: 100%;
+html{
+  background-image: url(https://photos.collectednotes.com/photos/8819/6ba6870a-0b7e-4ef4-baab-13b62d89ec94);
 }
