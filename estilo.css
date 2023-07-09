@@ -37,5 +37,28 @@ html{
 }
 
 html{
-  background-image: url(https://photos.collectednotes.com/photos/8819/6ba6870a-0b7e-4ef4-baab-13b62d89ec94);
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-negro-degradado-cubos_23-2149177090.jpg);
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: bold;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
 }
