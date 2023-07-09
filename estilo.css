@@ -16,58 +16,11 @@ h1 {
 --flow-space: 2rem;
 }
 
-body {
-    background-color: rgb(225, 228, 203);
-    border: 2px double rgb(0, 0, 0);
-    border-radius: 16px;
-    text-transform: capitalize;
-    font-family: Trebuchet;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1024px;
-    min-width: 256;
-    padding-top: 8px;
-    padding-bottom: 24px;
-    padding-left: 24px;
-    padding-right: 24px;
-}
-
 html{
     scroll-behavior: smooth;
 }
 
 html{
-  background-image: url(https://img.freepik.com/vector-gratis/fondo-negro-degradado-cubos_23-2149177090.jpg);
+  background-image: url(https://cdn.create.vista.com/api/media/medium/461258792/stock-photo-pastel-gradient-turquoise-green-background?token=);
 }
 
-nav{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 20px;
-  padding-left: 5%;
-  padding-right: 5%;
-  font-weight: bold;
-}
-
-ul li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
-a:hover{
-  color: white;
-}
-
-nav ul {
-  background-color:#a4e4f0;
-  border: 4px solid #111111;
-  border-radius: 10px;
-  font-family: serif;
-  font-weight:bold;
-  padding: 16px;
-  }
