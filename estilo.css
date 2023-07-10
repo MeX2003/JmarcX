@@ -1,16 +1,16 @@
-body{
-  font-family: sans-serif;
+header{
+  font-family: Courier;
 }
 
 a{
-  text-decoration: dashed;
+  text-decoration: none;
   color: black;
 }
 
 header{
   display: flex;
   height: 70px;
-  background-color: black;
+  background-color: silver;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
@@ -41,3 +41,57 @@ nav a:hover{
   }
 
 }
+
+nav ul li {
+  display:inline;
+  border-right: 2px solid 
+  #111111;
+  padding-right: 8px;
+  padding-left: 8px;
+  }
+
+a.seleccionado{
+ color: gray;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+  border: 5px solid;
+  padding: 2rem;
+  width: 300;
+  display: inline-block;
+}
+
+h1[data-sizing="intrinsic"] {
+  width: min-content;
+}
+
+h1 {
+  --flow-space: 2rem;
+}
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+.background::before{
+  content:'';
+  background-image: url(https://w0.peakpx.com/wallpaper/478/634/HD-wallpaper-video-game-minecraft-dragon-mountain.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top:0;
+  left:0;
+  bottom: 0;
+  right: 0;
+
+}
+
+
+  
