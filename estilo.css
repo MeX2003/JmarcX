@@ -73,25 +73,3 @@ h1[data-sizing="intrinsic"] {
 h1 {
   --flow-space: 2rem;
 }
-
-*{
-margin: 0px;
-padding: 0px;
-box-sizing: border-box;
-}
-.background::before{
-  content:'';
-  background-image: url(https://w0.peakpx.com/wallpaper/478/634/HD-wallpaper-video-game-minecraft-dragon-mountain.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  top:0;
-  left:0;
-  bottom: 0;
-  right: 0;
-
-}
-
-
-  
