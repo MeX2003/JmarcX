@@ -10,10 +10,13 @@ a{
 header{
   display: flex;
   height: 70px;
-  background-color: silver;
+  background-color: lightblue;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  border: 3px solid;
+  border-color: black;
+  line-height: 1;
 }
 
 .logo {
@@ -73,3 +76,6 @@ h1[data-sizing="intrinsic"] {
 h1 {
   --flow-space: 2rem;
 }
+
+html {
+  background-color: lightcyan;
