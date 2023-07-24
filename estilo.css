@@ -82,5 +82,8 @@ html {
 }
 
 h1 {
-  box-shadow: 0 0 10px rgba(0 0 0 / 30%);
+  box-shadow: 5px 5px 20px 5px rgb(146, 203, 222), -5px -5px 20px 5px rgb(30, 203, 183),
+    inset 0px 0px 10px 2px rgb(233, 222, 222), inset 0px 0px 20px 10px rgb(255, 255, 255);
 }
+
+
